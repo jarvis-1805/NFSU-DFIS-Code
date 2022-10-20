@@ -65,7 +65,7 @@ while true
 		
 		if [ $choice -ne 0 ] && [ $choice -gt 0 ] && [ $choice -lt 6 ]
 		then
-			read -p 'Enter the path: ' path
+			read -p 'Enter the path of the directory: ' path
 		fi
 	
 		case "$choice" in
